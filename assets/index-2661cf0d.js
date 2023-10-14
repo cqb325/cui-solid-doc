@@ -1,0 +1,1 @@
+import{ah as r,ag as s,a as C,m as g,aB as d}from"./index-425dee0a.js";function l(e){const[o,c]=r(e,"checked",!1),[n,t]=s(e,["checked","onChange"]);return C(d,g({get checked(){return o()},onChange:(a,h)=>{e.disabled||(c(a),n.onChange&&n.onChange(a,h))}},t))}export{l as C};
