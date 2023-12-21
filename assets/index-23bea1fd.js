@@ -1,0 +1,1 @@
+import{z as s,a as h,m as C}from"./index-83d09049.js";import{I as i}from"./code-799e34f9.js";import{c as m}from"./createField-01899bee.js";function l(e){const[a,r]=m(e,"checked",!1),[n,t]=s(e,["checked","onChange"]);return h(i,C({get checked(){return a()},onChange:(o,c)=>{e.disabled||(r(o),n.onChange&&n.onChange(o,c))}},t))}export{l as C};
