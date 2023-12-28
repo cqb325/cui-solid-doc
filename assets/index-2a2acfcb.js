@@ -1,1 +1,0 @@
-import{z as s,a as h,m as C}from"./index-39ed6b74.js";import{I as i}from"./code-a8f5f1bb.js";import{c as m}from"./createField-e888742b.js";function l(e){const[a,r]=m(e,"checked",!1),[n,t]=s(e,["checked","onChange"]);return h(i,C({get checked(){return a()},onChange:(o,c)=>{e.disabled||(r(o),n.onChange&&n.onChange(o,c))}},t))}export{l as C};
